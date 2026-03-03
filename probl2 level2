@@ -1,0 +1,16 @@
+triangle park athlete
+import java.util.*;
+class Main {
+    public static void main(String[] args) {
+        int side_1,side_2,side_3;
+        System.out.println("Enter 3 sides of a triangle");
+        Scanner sc = new Scanner(System.in);
+        side_1=sc.nextInt();
+        side_2=sc.nextInt();
+        side_3=sc.nextInt();
+        System.out.println(" ");
+        int perimeter=(side_1+side_2+side_3)/1000;
+        
+        System.out.println("Number of rounds required to complete 5kms:"+(perimeter/5));
+    }
+}
