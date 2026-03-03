@@ -1,0 +1,12 @@
+student chocolate
+import java.util.*;
+class Main {
+    public static void main(String[] args) {
+        Scanner sc=new Scanner (System.in);
+        int number_of_chocolates=sc.nextInt();
+        int number_of_children=sc.nextInt();
+        System.out.println("Number of chocolates each student gets= "+(number_of_chocolates/number_of_children));
+        System.out.println("Number of chocolates remaining after equal distribution="+(number_of_chocolates%number_of_children));
+    }
+}
+
