@@ -1,0 +1,11 @@
+kg to pound
+import java.util.*;
+class Main {
+    public static void main(String[] args) {
+        Scanner sc=new Scanner (System.in);
+        System.out.println("Enter weight in kilogram");
+        int weight=sc.nextInt();
+        System.out.println("The weight of the person in kg is "+weight+" and in pound is "+(weight/2.2));
+    }
+}
+
