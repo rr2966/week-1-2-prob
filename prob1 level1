@@ -1,0 +1,12 @@
+import java.util.*;
+class Main {
+    public static void main(String[] args) {
+        Scanner sc=new Scanner (System.in);
+        System.out.println("Enter principle rate and time ");
+        int principle=sc.nextInt();
+        int rate=sc.nextInt();
+        int time=sc.nextInt();
+        double simple_interest = (principle * rate * time) / 100;
+        System.out.println("The Simple Interest is "+simple_interest+" for Principal "+principle+" Rate of Interest "+rate+" and Time "+time);
+    }
+}
